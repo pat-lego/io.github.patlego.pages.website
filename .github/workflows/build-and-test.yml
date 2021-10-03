@@ -12,8 +12,8 @@ jobs:
       - name: Setup Node v12
         uses: actions/setup-node@v2
         with:
-          node-version: '12'
-          cache: 'npm'
+            node-version: '12'
+            cache: 'npm'
         - run: npm install
         - run: npm run test:unit
         - run: npm run build
