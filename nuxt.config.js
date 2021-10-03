@@ -2,6 +2,9 @@ export default {
   router: {
     base: '/'
   },
+  generate: {
+    dir: 'docs'
+  },
   head: {
     title: "Patrique Legault",
     meta: [
