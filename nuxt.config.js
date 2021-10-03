@@ -1,6 +1,6 @@
 export default {
   router: {
-    base: '/'
+    base: '/docs'
   },
   generate: {
     dir: 'docs'
