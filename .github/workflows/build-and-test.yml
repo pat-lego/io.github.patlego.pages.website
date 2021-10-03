@@ -14,7 +14,6 @@ jobs:
         with:
           node-version: '12'
           cache: 'npm'
-      - name: Run Node
         - run: npm install
         - run: npm run test:unit
         - run: npm run build
