@@ -1,6 +1,6 @@
 export default {
   router: {
-    base: '/docs'
+    base: '/io.github.patlego.pages.website'
   },
   generate: {
     dir: 'docs'
