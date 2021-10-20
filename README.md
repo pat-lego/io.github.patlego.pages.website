@@ -1,4 +1,4 @@
-![Build Status](https://github.com/pat-lego/io.github.patlego.pages.website/workflows/Build%20and%20Test/badge.svg) 
+![Build Status](https://github.com/pat-lego/io.github.patlego.pages.website/workflows/Build%20and%20Deploy/badge.svg) 
 
 # Personal Website
 
