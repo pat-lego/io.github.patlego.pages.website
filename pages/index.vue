@@ -81,6 +81,11 @@ export default {
             title: 'Software Consultant',
             description: 'Leveraging Adobe Experience Manager to create web content for businesses.',
             year: 2019
+          },
+          {
+            title: 'Support Engineer - AEM',
+            description: 'Solving technical AEM challenges that clients are faced with and provide feedback and technical knowledge to the internal team.',
+            year: 2021
           }
         ],
         profile: {
