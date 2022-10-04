@@ -22,8 +22,16 @@
     </div>
     <div v-if="profile.experience" class="flex flex-row">
         <div class="pr-4">Experience</div>
-        <div class='flex flex-col md:flex-row'>
+        <div class='flex flex-col md:flex-row justify-end w-full'>
         <div v-for="exp in profile.experience" :key="exp.name" class="font-bold m-auto mr-2">
+          <a class="pr-1 hover:text-blue-500" :href="exp.link" target="_blank">{{exp.name}}</a>
+        </div>
+        </div>
+    </div>
+    <div v-if="profile.websites" class="flex flex-row">
+        <div class="pr-4">Websites</div>
+        <div class='flex flex-col md:flex-row justify-end w-full'>
+        <div v-for="exp in profile.websites" :key="exp.link" class="font-bold m-auto mr-2">
           <a class="pr-1 hover:text-blue-500" :href="exp.link" target="_blank">{{exp.name}}</a>
         </div>
         </div>

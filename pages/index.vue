@@ -106,6 +106,24 @@ export default {
               name: 'Adobe Experience Manager',
               link: 'https://www.adobe.com/ca/marketing/experience-manager.html'
             }
+          ],
+          websites: [
+            {
+              name: 'My Courses',
+              link: 'https://courses.pat-lego.com'
+            },
+            {
+              name: 'My Food',
+              link: 'https://food.pat-lego.com'
+            },
+            {
+              name: 'My Store',
+              link: 'https://store.pat-lego.com'
+            },
+            {
+              name: 'My Gigs',
+              link: 'https://www.fiverr.com/patriquelegault'
+            }
           ]
         }
       },
