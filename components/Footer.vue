@@ -13,6 +13,9 @@
             <div v-if="stackoverflow" class="pr-8">
                 <a :href="stackoverflow" target="_blank"><font-awesome-icon class="text-4xl hover:text-blue-300" :icon="['fab', 'stack-overflow']" /></a>
             </div>
+            <div v-if="stackoverflow" class="pr-8">
+                <a :href="fiverr" target="_blank"><font-awesome-icon class="text-4xl hover:text-blue-300" :icon="['fas', 'hands-helping']" /></a>
+            </div>
         </div>
     </div>
 </template>
@@ -30,7 +33,8 @@ export default {
         github: 'https://github.com/pat-lego',
         twitter: 'https://twitter.com/_patlego',
         linkedin: 'https://www.linkedin.com/in/patrique-legault/',
-        stackoverflow: 'https://stackoverflow.com/users/8828583/patrique-legault'
+        stackoverflow: 'https://stackoverflow.com/users/8828583/patrique-legault',
+        fiverr: 'https://www.fiverr.com/patriquelegault'
       }
   }
 }
